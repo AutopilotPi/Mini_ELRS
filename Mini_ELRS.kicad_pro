@@ -120,6 +120,7 @@
       },
       "track_widths": [
         0.0,
+        0.156464,
         0.254,
         0.29337,
         0.508,
@@ -347,7 +348,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "ic_footprint"
+      "ic_footprint",
+      "kicad_lceda"
     ],
     "pinned_symbol_libs": []
   },
