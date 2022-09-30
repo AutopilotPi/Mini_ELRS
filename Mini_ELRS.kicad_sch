@@ -1295,10 +1295,6 @@
   (no_connect (at 194.31 85.09) (uuid 550e974f-5e6d-4d5d-9fc0-da46fda66c35))
   (no_connect (at 229.87 87.63) (uuid 5fd11c7a-70de-4d89-9bba-d402f4c31b86))
 
-  (wire (pts (xy 129.54 82.55) (xy 121.92 82.55))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 00f3c638-7bf5-4e17-9873-9473abcfc328)
-  )
   (wire (pts (xy 71.12 49.53) (xy 73.66 49.53))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 01b91fbd-fad9-489b-a154-50b09eeed1d3)
@@ -2079,21 +2075,6 @@
     (pin "1" (uuid 742f2a37-f4ee-47a0-a531-306ead6002c2))
   )
 
-  (symbol (lib_id "Device:R") (at 118.11 82.55 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 36107dd6-c0cf-486a-851d-353de8379728)
-    (property "Reference" "R6" (id 0) (at 118.11 76.2 90))
-    (property "Value" "10K" (id 1) (at 118.11 78.74 90))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 118.11 84.328 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 118.11 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b4711a67-cc30-424e-95bf-54cea2937fb9))
-    (pin "2" (uuid 79ede902-a07c-4110-bcd8-848769d70a4e))
-  )
-
   (symbol (lib_id "power:GND") (at 125.73 64.77 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 386c0c7b-a34b-4977-82a3-0f6010c3b42f)
@@ -2760,24 +2741,6 @@
     (pin "MP" (uuid 51006d57-093f-4aed-8370-855bc63732c0))
   )
 
-  (symbol (lib_id "power:GND") (at 129.54 82.55 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid b99f0ade-492b-4e95-b2d9-3cae4847f7c8)
-    (property "Reference" "#PWR0114" (id 0) (at 135.89 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 130.175 79.375 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 129.54 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 129.54 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9ccddcbe-e17c-4586-9f5d-de7b903ca45e))
-  )
-
   (symbol (lib_id "RF_Module:ESP32-PICO-D4") (at 73.66 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c07eebcc-30d2-439d-8030-faea6ade4486)
@@ -3189,9 +3152,6 @@
     (path "/9814de10-481d-4340-b2bb-a842061f50f5"
       (reference "#PWR0113") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/b99f0ade-492b-4e95-b2d9-3cae4847f7c8"
-      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
-    )
     (path "/c424557c-de60-43fc-9d3b-22dc03bfab6a"
       (reference "#PWR0115") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -3317,9 +3277,6 @@
     )
     (path "/1a039d88-7ab9-405d-bfaf-324c97ce2e32"
       (reference "R5") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/36107dd6-c0cf-486a-851d-353de8379728"
-      (reference "R6") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c07eebcc-30d2-439d-8030-faea6ade4486"
       (reference "U1") (unit 1) (value "ESP32-PICO-D4") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm")
