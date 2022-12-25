@@ -1656,6 +1656,12 @@
     (uuid fd73ad5e-f0e6-45d2-a621-c14346b0c3c0)
   )
 
+  (text "there is a internal pullup res, so set a strong pull down here"
+    (at 60.96 193.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8284aab9-745d-48ae-aef5-fca58e81f991)
+  )
+
   (label "RF" (at 226.949 120.015 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 02762b77-5323-431b-bd90-8e2c5bc3a7f5)
@@ -1864,7 +1870,7 @@
     (property "Reference" "R5" (id 0) (at 85.09 173.3549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10K" (id 1) (at 85.09 175.8949 0)
+    (property "Value" "3K3" (id 1) (at 85.09 175.8949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 81.407 174.625 90)
@@ -3276,7 +3282,7 @@
       (reference "R4") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/1a039d88-7ab9-405d-bfaf-324c97ce2e32"
-      (reference "R5") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R5") (unit 1) (value "3K3") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c07eebcc-30d2-439d-8030-faea6ade4486"
       (reference "U1") (unit 1) (value "ESP32-PICO-D4") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm")
